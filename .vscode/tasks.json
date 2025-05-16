@@ -2,19 +2,18 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "cppbuild",
-			"label": "C/C++: gcc.exe build active file",
-			"command": "C:/msys64/ucrt64/bin/gcc.exe",
+			
+			"label": "Build Sensor Fusion Simulation",
+			"type": "shell",
+			"command": "g++",
 			"args": [
-				"-fdiagnostics-color=always",
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				 "-I.vscode/include",
+                ".vscode/main.cpp",
+                ".vscode/src/temperature_sensor.cpp",
+                ".vscode/src/sensor.cpp",
+                "-o",
+                "sensor_sim.exe"
 			],
-			"options": {
-				"cwd": "C:/msys64/ucrt64/bin"
-			},
 			"problemMatcher": [
 				"$gcc"
 			],
