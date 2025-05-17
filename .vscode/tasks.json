@@ -11,6 +11,7 @@
                 ".vscode/main.cpp",
                 ".vscode/src/temperature_sensor.cpp",
                 ".vscode/src/sensor.cpp",
+				".vscode/src/fusion_engine.cpp",
                 "-o",
                 "sensor_sim.exe"
 			],
@@ -21,7 +22,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: C:/msys64/ucrt64/bin/gcc.exe"
+			
 		}
 	]
 }
