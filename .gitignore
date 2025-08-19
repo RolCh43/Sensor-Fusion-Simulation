@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### CMake build files ###
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
