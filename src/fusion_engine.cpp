@@ -1,4 +1,4 @@
-#include "fusion_engine.hpp"
+#include "../include/fusion_engine.hpp"
 
 
 double FusionEngine::fuseWeightedAverage() const {

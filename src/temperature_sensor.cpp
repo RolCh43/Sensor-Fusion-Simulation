@@ -1,4 +1,4 @@
-#include "temperature_sensor.hpp"
+#include "../include/temperature_sensor.hpp"
 #include <chrono>
 
 TemperatureSensor::TemperatureSensor(const std::string& name, int updateRateMs)

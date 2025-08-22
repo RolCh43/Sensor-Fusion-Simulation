@@ -1,4 +1,4 @@
-#include "sensor.hpp"
+#include "../include/sensor.hpp"
 
 Sensor::Sensor(const std::string name, int updateRateMs)
     : name(name), updateRateMs(updateRateMs) {}
